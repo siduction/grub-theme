@@ -1,0 +1,23 @@
+#!/bin/bash
+# Copyright 2016 Alf Gaida <agaida@siduction.org>
+# License: WTFPL-2
+
+source VERSION
+
+# git checkout templates -- ../$TEMPLATE
+# mv ../$TEMPLATE VERSION
+
+rm -rf debtemplate
+
+git checkout templates -- bootstrap
+git checkout templates -- debtemplate
+git checkout templates -- theme
+git checkout templates -- Makefile
+
+./bootstrap
+./bootstrap
+
+rm -rf debtemplate
+rm -f bootstrap
+
+git add .
