@@ -2,7 +2,7 @@
 
 include ./VERSION
 
-all: background logo font icons theme menu slider highlight userpass live
+all: background logo font icons menu slider highlight userpass themetxt livetxt
 icons: theme/icons/*.svg
 
 dir:
@@ -87,19 +87,19 @@ highlight_e: dir
 
 highlight: highlight_w highlight_c highlight_e
 
-template/icons/*.svg: iconsdir
+theme/icons/*.svg: iconsdir
 	inkscape --without-gui \
 		--export-width=32 \
 		--export-height=32 \
 		--export-png="$(patsubst theme/icons/%.svg,build/$(NAME)/icons/%.png,$@)" \
 			$@
 
-theme:
-	cp theme/theme.txt build/$(NAME)
+themetxt:
+	cp -v theme/theme.txt build/$(NAME)
 
-live:
+livetxt:
 	cp -a build/$(NAME) build/$(NAME)-live
-	cp theme/theme-live.txt build/$(NAME)-live/theme.txt
+	cp -v theme/theme-live.txt build/$(NAME)-live/theme.txt
 
 
 clean:
