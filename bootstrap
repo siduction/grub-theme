@@ -41,7 +41,7 @@ if [ ! -e ./debian/changelog ]; then
         -e "s/\@VERSION\@/${VERSION}/g" \
         -e "s/\@FLAVOUR\@/${FLAVOUR}/g" \
         -e "s/\@DISPLAY\@/${DISPLAY}/g" \
-        template/debian/changelog \
+        debtemplate/changelog \
         > ./debian/changelog
 fi
 
@@ -50,7 +50,7 @@ sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
     -e "s/\@VERSION\@/${VERSION}/g" \
     -e "s/\@FLAVOUR\@/${FLAVOUR}/g" \
     -e "s/\@DISPLAY\@/${DISPLAY}/g" \
-    template/debian/${FLAVOUR}-control \
+    debtemplate/${FLAVOUR}-control \
     > ./debian/control
 
 sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
@@ -58,7 +58,7 @@ sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
     -e "s/\@VERSION\@/${VERSION}/g" \
     -e "s/\@FLAVOUR\@/${FLAVOUR}/g" \
     -e "s/\@DISPLAY\@/${DISPLAY}/g" \
-    template/debian/rules \
+    debtemplate/rules \
     > ./debian/rules
 chmod 755 ./debian/rules
 
@@ -67,19 +67,16 @@ sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
     -e "s/\@VERSION\@/${VERSION}/g" \
     -e "s/\@FLAVOUR\@/${FLAVOUR}/g" \
     -e "s/\@DISPLAY\@/${DISPLAY}/g" \
-    template/debian/source/options \
+    debtemplate/source/options \
     > ./debian/source/options
 
 
-
-rm -rf theme
-cp -a template/theme .
 sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
     -e "s/\@CODENAME\@/${DESCRIPTION}/g" \
     -e "s/\@VERSION\@/${VERSION}/g" \
     -e "s/\@FLAVOUR\@/${FLAVOUR}/g" \
     -e "s/\@DISPLAY\@/${DISPLAY}/g" \
-    template/debian/grub-theme.install \
+    debtemplate/grub-theme.install \
     > ./debian/${NAME}-grub-theme.install
 
 sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
@@ -87,7 +84,7 @@ sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
     -e "s/\@VERSION\@/${VERSION}/g" \
     -e "s/\@FLAVOUR\@/${FLAVOUR}/g" \
     -e "s/\@DISPLAY\@/${DISPLAY}/g" \
-    template/debian/live-grub-theme.install \
+    debtemplate/live-grub-theme.install \
     > ./debian/${NAME}-live-grub-theme.install
 
 sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
@@ -95,5 +92,5 @@ sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
     -e "s/\@VERSION\@/${VERSION}/g" \
     -e "s/\@FLAVOUR\@/${FLAVOUR}/g" \
     -e "s/\@DISPLAY\@/${DISPLAY}/g" \
-    template/debian/grub-theme.postinst \
+    debtemplate/grub-theme.postinst \
     > ./debian/${NAME}-grub-theme.postinst
