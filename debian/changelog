@@ -1,3 +1,9 @@
+patience-grub-theme (2016.1.0-1) unstable; urgency=medium
+
+  * the release is near
+
+ -- Alf Gaida <agaida@siduction.org>  Wed, 21 Dec 2016 01:49:02 +0100
+
 patience-grub-theme (2016.1.0~alpha-4) unstable; urgency=medium
 
   * new bootstrap, new structure - everything new
