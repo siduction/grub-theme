@@ -15,8 +15,8 @@
    height="768"
    id="svg2"
    version="1.1"
-   inkscape:version="0.91+devel r"
-   sodipodi:docname="background.svg"
+   inkscape:version="0.92.1 r15371"
+   sodipodi:docname="1024x768.svg"
    inkscape:export-filename="/home/se7en/home-paste/nox.png"
    inkscape:export-xdpi="90.005646"
    inkscape:export-ydpi="90.005646"
@@ -218,13 +218,13 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.70605663"
-     inkscape:cx="217.0359"
+     inkscape:cx="429.48345"
      inkscape:cy="292.28562"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1920"
-     inkscape:window-height="1136"
+     inkscape:window-height="1139"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -387,14 +387,14 @@ Markus Meyer {coruja at siduction dot org}</dc:title>
      id="layer1"
      transform="translate(587.95276,-558.18108)">
     <image
-       sodipodi:absref="/home/agaida/work/siduction/code/extra/siduction-art-foo/master/patience/2-artwork-grub/svg/background.jpg"
+       sodipodi:absref="/home/agaida/work/siduction/code/extra/artwork/grub-theme/svg/background.jpg"
        xlink:href="background.jpg"
-       y="553.18109"
-       x="-592.95276"
-       id="image13415"
-       height="777.99994"
+       preserveAspectRatio="none"
        width="1244.7999"
-       preserveAspectRatio="none" />
+       height="777.99994"
+       id="image13415"
+       x="-592.95276"
+       y="553.18109" />
     <g
        transform="translate(-463.31192,60.251364)"
        id="layer1-4"
@@ -421,16 +421,16 @@ Markus Meyer {coruja at siduction dot org}</dc:title>
        y="553.18109" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:74.87728119px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#999999;fill-opacity:1;stroke:none;filter:url(#filter2673-1-5)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:sans-serif;-inkscape-font-specification:Sans;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#999999;fill-opacity:1;stroke:none;filter:url(#filter2673-1-5)"
        x="-807.99683"
        y="854.18756"
        id="text2399-3"
-       sodipodi:linespacing="125%"
        transform="matrix(0.50357273,0,0,0.49695292,-139.60647,815.08139)"><tspan
          sodipodi:role="line"
          id="tspan2401-9"
          x="-807.99683"
-         y="854.18756" /></text>
+         y="854.18756"
+         style="font-size:74.87728119px;line-height:1.25;font-family:sans-serif"> </tspan></text>
     <rect
        style="fill:#ff6600;fill-opacity:1;stroke:none"
        id="rect4475"
