@@ -2,10 +2,10 @@ Source: patience-grub-theme
 Section: graphics
 Priority: extra
 Maintainer: Alf Gaida <agaida@siduction.org>
-Build-Depends: debhelper (>= 9),
+Build-Depends: debhelper (>= 10),
                inkscape,
                grub-common
-Standards-Version: 3.9.8
+Standards-Version: 4.1.2
 Vcs-Git: git://git.siduction.org/packages/siduction-repository/siduction-art-foo.git
 Vcs-Browser: http://git.siduction.org/packages/siduction-repository/siduction-art-foo.git
 
