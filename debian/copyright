@@ -3,11 +3,12 @@ Upstream-Name: siduction-art-patience
 Upstream-Contact: Alf Gaida <agaida@siduction.org>
 
 Files: *
-Copyright: 2015 Alf Gaida <agaida@siduction.org>
+Copyright: 2015-2017 Alf Gaida <agaida@siduction.org>
+           2017 Hendrik Lehmbruch <hendrikl@siduction.org> 
 License: GPL-2.0
 
 Files: debian/*
-Copyright: 2015 Alf Gaida <agaida@siduction.org>
+Copyright: 2015-2017 Alf Gaida <agaida@siduction.org>
 License: GPL-2.0
 
 License: GPL-2.0

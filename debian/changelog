@@ -1,3 +1,9 @@
+patience-grub-theme (2018.1.0-3) unstable; urgency=medium
+
+  * fix progress bar
+
+ -- Alf Gaida <agaida@siduction.org>  Fri, 29 Dec 2017 17:36:12 +0100
+
 patience-grub-theme (2018.1.0-2) unstable; urgency=medium
 
   * Added progress bar 

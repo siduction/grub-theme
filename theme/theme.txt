@@ -49,10 +49,11 @@ title-text: ""
 #progress bar
  + progress_bar {
  	id = "__timeout__"
+	text = "@TIMEOUT_NOTIFICATION_MIDDLE@"
  	left = 15%
- 	top = 95%
- 	height = 2%
- 	width = 70%-3
+ 	top = 85%
+ 	height = 5
+ 	width = 70%+3
  	bg_color = "#f70"
  }
 
