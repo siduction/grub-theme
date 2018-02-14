@@ -51,8 +51,8 @@ title-text: ""
  	id = "__timeout__"
 	text = "@TIMEOUT_NOTIFICATION_MIDDLE@"
  	left = 15%
- 	top = 85%
- 	height = 5
+ 	top = 75%
+ 	height = 3
  	width = 70%+3
  	bg_color = "#f70"
  }
