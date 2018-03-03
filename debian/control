@@ -2,25 +2,23 @@ Source: @CODENAME_SAFE@-grub-theme
 Section: graphics
 Priority: extra
 Maintainer: Alf Gaida <agaida@siduction.org>
-Build-Depends: debhelper (>= 9),
+Build-Depends: debhelper (>= 11),
                inkscape,
                grub-common
-Standards-Version: 3.9.8
-Vcs-Git: git://git.siduction.org/packages/siduction-repository/siduction-art-foo.git
+Standards-Version: 4.1.3
+Vcs-Git: https:://git.siduction.org/siduction-repository/.git
 Vcs-Browser: http://git.siduction.org/packages/siduction-repository/siduction-art-foo.git
 
 
 Package: @CODENAME_SAFE@-grub-theme
 Architecture: all
-Depends:
- ${misc:Depends},
+Depends: ${misc:Depends},
 Description: grub-theme for @CODENAME@
  mostly copy from grub-sources
 
 Package: @CODENAME_SAFE@-live-grub-theme
 Architecture: all
-Depends:
- ${misc:Depends},
- @CODENAME_SAFE@-grub-theme
+Depends: ${misc:Depends},
+         @CODENAME_SAFE@-grub-theme
 Description: live grub-theme for @CODENAME@
  mostly copy from grub-sources
