@@ -1,3 +1,9 @@
+patience-grub-theme (2018.2.0-2) unstable; urgency=medium
+
+  * final release 18.2
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 03 Mar 2018 11:59:55 +0100
+
 patience-grub-theme (2018.2.0-1) unstable; urgency=medium
 
   * New Version and new progress bar
@@ -12,7 +18,7 @@ patience-grub-theme (2018.1.0-3) unstable; urgency=medium
 
 patience-grub-theme (2018.1.0-2) unstable; urgency=medium
 
-  * Added progress bar 
+  * Added progress bar
 
  -- Alf Gaida <agaida@siduction.org>  Thu, 28 Dec 2017 18:54:20 +0100
 
@@ -30,7 +36,7 @@ patience-grub-theme (2017.1.0-1) unstable; urgency=medium
 
 patience-grub-theme (2016.1.0-2) unstable; urgency=medium
 
-  * fixed background and version 
+  * fixed background and version
 
  -- Alf Gaida <agaida@siduction.org>  Thu, 22 Dec 2016 22:02:53 +0100
 
@@ -43,7 +49,7 @@ patience-grub-theme (2016.1.0-1) unstable; urgency=medium
 patience-grub-theme (2016.1.0~alpha-4) unstable; urgency=medium
 
   * new bootstrap, new structure - everything new
-  * added debian/new-template 
+  * added debian/new-template
 
  -- Alf Gaida <agaida@siduction.org>  Sun, 04 Sep 2016 00:43:38 +0200
 

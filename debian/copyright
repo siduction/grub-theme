@@ -1,14 +1,14 @@
-Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: siduction-art-patience
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: 
 Upstream-Contact: Alf Gaida <agaida@siduction.org>
 
 Files: *
-Copyright: 2015-2017 Alf Gaida <agaida@siduction.org>
+Copyright: 2015-2018 Alf Gaida <agaida@siduction.org>
            2017 Hendrik Lehmbruch <hendrikl@siduction.org> 
 License: GPL-2.0
 
 Files: debian/*
-Copyright: 2015-2017 Alf Gaida <agaida@siduction.org>
+Copyright: 2015-2018 Alf Gaida <agaida@siduction.org>
 License: GPL-2.0
 
 License: GPL-2.0
