@@ -1,26 +1,24 @@
 Source: paintitblack-grub-theme
 Section: graphics
-Priority: extra
+Priority: optional
 Maintainer: Alf Gaida <agaida@siduction.org>
-Build-Depends: debhelper (>= 9),
+Build-Depends: debhelper (>= 11),
                inkscape,
                grub-common
-Standards-Version: 3.9.8
-Vcs-Git: git://git.siduction.org/packages/siduction-repository/siduction-art-foo.git
-Vcs-Browser: http://git.siduction.org/packages/siduction-repository/siduction-art-foo.git
+Standards-Version: 4.1.4
+Vcs-Git: https://git.siduction.org/artwork/grub-theme
+Vcs-Browser: https://git.siduction.org/artwork/grub-theme
 
 
 Package: paintitblack-grub-theme
 Architecture: all
-Depends:
- ${misc:Depends},
-Description: grub-theme for PaintItBlack - next
+Depends: ${misc:Depends},
+Description: grub-theme for PaintItBlack
  mostly copy from grub-sources
 
 Package: paintitblack-live-grub-theme
 Architecture: all
-Depends:
- ${misc:Depends},
- paintitblack-grub-theme
-Description: live grub-theme for PaintItBlack - next
- mostly copy from grub-sources
+Depends: ${misc:Depends},
+         paintitblack-grub-theme
+Description: live grub-theme for PaintItBlack
+ mostly copy from grub-sources (live)

@@ -1,3 +1,9 @@
+paintitblack-grub-theme (2018.3.0-1) unstable; urgency=medium
+
+  * new bootstrap for 2018.3.0
+
+ -- Alf Gaida <agaida@siduction.org>  Mon, 16 Apr 2018 00:02:39 +0200
+
 paintitblack-grub-theme (2016.08.05) unstable; urgency=medium
 
   * new highlight and normal colors for grub 
