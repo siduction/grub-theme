@@ -31,7 +31,7 @@ userpass: dir
 			theme/userpass.svg
 
 font: dir
-	grub-mkfont -s 16 -o build/$(NAME)/u_vga16_16.pf2 u_vga16.bdf
+	grub-mkfont -s 16 -o build/$(NAME)/u_vga16_16.pf2 template/u_vga16.bdf
 
 slider_n: dir
 	inkscape --without-gui \
@@ -95,10 +95,10 @@ theme/icons/*.svg: iconsdir
 			$@
 
 themetxt:
-	cp -v theme/theme.txt build/$(NAME)
+	cp -v theme/theme.txt build/$(CODENAME_SAFE)
 
 livetxt:
-	cp -a build/$(NAME) build/$(CODENAME_SAFE)-live
+	cp -a build/$(CODENAME_SAFE) build/$(CODENAME_SAFE)-live
 	cp -v theme/theme-live.txt build/$(CODENAME_SAFE)-live/theme.txt
 
 

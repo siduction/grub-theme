@@ -90,7 +90,16 @@ sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
     -e "s/\@DISPLAY\@/${DISPLAY}/g" \
     ../template/debian/${CODENAME_SAFE}-grub-theme.postinst \
     > ./debian/${CODENAME_SAFE}-grub-theme.postinst
-    
+
+
+sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
+    -e "s/\@CODENAME\@/${CODENAME}/g" \
+    -e "s/\@VERSION\@/${VERSION}/g" \
+    -e "s/\@FLAVOUR\@/${FLAVOUR}/g" \
+    -e "s/\@DISPLAY\@/${DISPLAY}/g" \
+    ../template/Makefile \
+    > ./Makefile
+
 echo "-----------------------------------------------------------"
 echo "Recreated debian/$foo successful - just go ahead!"
 echo ""
