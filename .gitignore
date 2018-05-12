@@ -3,13 +3,12 @@
 *.save
 *.swp
 
+## build foo
 /build/
+/debian/.debhelper/
 
-
-/debian/thunderstruck-*
-/debian/paintitblack-*
-/debian/patience-*
-/debian/whiteroom-*
+/debian/paintitblack-*/
+/debian/patience-*/
 
 ## generated debian files
 /debian/debhelper-build-stamp

@@ -1,3 +1,9 @@
+patience-grub-theme (2018.3.0-1) unstable; urgency=medium
+
+  * release 18.3
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 12 May 2018 20:51:06 +0200
+
 patience-grub-theme (2018.2.0-2) unstable; urgency=medium
 
   * final release 18.2

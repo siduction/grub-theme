@@ -34,17 +34,6 @@ title-text: ""
 	file = "logo.png"
 }
 
-#circular progress bar
-#+ circular_progress {
-#        left = 50%-64
-#        top = 80%-64
-#        id = "__timeout__"
-#        width = 70
-#        height = 70
-#        center_bitmap = "center.png"
-#        tick_bitmap = "tick.png"
-#        num_ticks = 30
-#}
 
 #progress bar
  + progress_bar {
