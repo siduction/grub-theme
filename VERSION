@@ -1,5 +1,5 @@
-CODENAME=PaintItBlack
-CODENAME_SAFE=paintitblack
+CODENAME=Xperimental
+CODENAME_SAFE=xperimental
 DISPLAY=grub-theme
 FLAVOUR=grub-theme
-VERSION=2018.3.0
+VERSION=2019.1.0

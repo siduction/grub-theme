@@ -1,24 +1,24 @@
-Source: paintitblack-grub-theme
+Source: xperimental-grub-theme
 Section: graphics
 Priority: optional
 Maintainer: Alf Gaida <agaida@siduction.org>
-Build-Depends: debhelper (>= 11),
+Build-Depends: debhelper-compat (= 12),
                inkscape,
                grub-common
-Standards-Version: 4.1.4
+Standards-Version: 4.4.0
 Vcs-Git: https://git.siduction.org/artwork/grub-theme
 Vcs-Browser: https://git.siduction.org/artwork/grub-theme
 
 
-Package: paintitblack-grub-theme
+Package: xperimental-grub-theme
 Architecture: all
 Depends: ${misc:Depends},
-Description: grub-theme for PaintItBlack
+Description: grub-theme for Xperimental
  mostly copy from grub-sources
 
-Package: paintitblack-live-grub-theme
+Package: xperimental-live-grub-theme
 Architecture: all
 Depends: ${misc:Depends},
-         paintitblack-grub-theme
-Description: live grub-theme for PaintItBlack
+         xperimental-grub-theme
+Description: live grub-theme for Xperimental
  mostly copy from grub-sources (live)
