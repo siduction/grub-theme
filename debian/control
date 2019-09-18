@@ -2,10 +2,10 @@ Source: @CODENAME_SAFE@-grub-theme
 Section: graphics
 Priority: optional
 Maintainer: Alf Gaida <agaida@siduction.org>
-Build-Depends: debhelper (>= 11),
+Build-Depends: debhelper-compat (= 12),
                inkscape,
                grub-common
-Standards-Version: 4.1.4
+Standards-Version: 4.4.0
 Vcs-Git: https://git.siduction.org/artwork/grub-theme
 Vcs-Browser: https://git.siduction.org/artwork/grub-theme
 

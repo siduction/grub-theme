@@ -5,6 +5,8 @@
 
 ## build foo
 /build/
+/debian/.debhelper/
+
 /debian/paintitblack-*/
 /debian/patience-*/
 
@@ -13,4 +15,3 @@
 /debian/files
 /debian/*.log
 /debian/*.substvars
-
