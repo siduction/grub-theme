@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -14,7 +12,7 @@
    height="1080"
    id="svg2"
    version="1.1"
-   inkscape:version="0.92.1 r15371"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15)"
    sodipodi:docname="1920x1080.svg"
    inkscape:export-filename="/home/se7en/home-paste/nox.png"
    inkscape:export-xdpi="90.005646"
@@ -284,16 +282,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.47868879"
-     inkscape:cx="1028.1362"
-     inkscape:cy="654.01386"
+     inkscape:zoom="1.3539364"
+     inkscape:cx="304.97363"
+     inkscape:cy="926.14768"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1920"
-     inkscape:window-height="1139"
+     inkscape:window-width="1440"
+     inkscape:window-height="850"
      inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-y="24"
      inkscape:window-maximized="1"
      width="0px"
      height="0px"
@@ -307,7 +305,8 @@
      inkscape:snap-bbox="true"
      inkscape:bbox-nodes="true"
      inkscape:snap-page="true"
-     inkscape:bbox-paths="true">
+     inkscape:bbox-paths="true"
+     inkscape:document-rotation="0">
     <sodipodi:guide
        orientation="0,1"
        position="-4.9999988,1085"
@@ -432,21 +431,21 @@ Markus Meyer {coruja at siduction dot org}</dc:title>
          id="tspan2401-6"
          x="1143.8781"
          y="-387.35629"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:30.22049141px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'Sans Bold';text-align:center;writing-mode:lr-tb;text-anchor:middle">Release Candidate</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:30.2205px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'Sans Bold';text-align:center;writing-mode:lr-tb;text-anchor:middle">Release Candidate</tspan><tspan
          sodipodi:role="line"
          x="1148.6886"
          y="-349.58069"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30.22049141px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:Sans;text-align:center;writing-mode:lr-tb;text-anchor:middle"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30.2205px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:Sans;text-align:center;writing-mode:lr-tb;text-anchor:middle"
          id="tspan9905"> </tspan></text>
     <image
-       sodipodi:absref="/home/agaida/work/siduction/code/extra/artwork/grub-theme/svg/background.jpg"
+       sodipodi:absref="/kammer/bastelecke/github/git-siduction/grub-theme/svg/background.jpg"
        xlink:href="background.jpg"
-       preserveAspectRatio="none"
-       width="1930"
-       height="1206.25"
-       id="image12845"
+       y="146.19112"
        x="-593.92853"
-       y="146.19112" />
+       id="image12845"
+       height="1206.25"
+       width="1930"
+       preserveAspectRatio="none" />
     <g
        transform="translate(-463.31192,60.251364)"
        id="layer1-4"
@@ -630,7 +629,8 @@ Markus Meyer {coruja at siduction dot org}</dc:title>
              y="-107"
              style="font-style:normal;font-weight:bold;font-family:sans-serif;-inkscape-font-specification:'Sans Bold';fill:#6f7c91" /></flowRegion><flowPara
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18px;line-height:1.25;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans Bold'"
-           id="flowPara4830-9-1">the community based OS</flowPara></flowRoot>      <path
+           id="flowPara4830-9-1">the community based OS</flowPara></flowRoot>
+      <path
          style="fill:none;stroke:#ff6600;stroke-width:2.63505197;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          d="m -1031.1164,54.927476 1692.6291,0.0207 12.38154,11.0297 27.52122,-28.36542 20.61042,-0.0635"
          id="path3876-1-0-9"
@@ -650,7 +650,7 @@ Markus Meyer {coruja at siduction dot org}</dc:title>
          x="-548.5033"
          sodipodi:role="line"
          id="tspan6821-5"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.5px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'Sans Bold';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#6f7c91;fill-opacity:1;stroke:none">patience </tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.5px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'Sans Bold';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#6f7c91;fill-opacity:1;stroke:none">c-blues </tspan></text>
     <rect
        style="fill:#ff6600;fill-opacity:1"
        id="rect12621-3"
@@ -730,5 +730,6 @@ Markus Meyer {coruja at siduction dot org}</dc:title>
            x="40"
            y="450.72372" /></flowRegion><flowPara
          id="flowPara8164"
-         style="font-size:40px;line-height:1.25"> </flowPara></flowRoot>  </g>
+         style="font-size:40px;line-height:1.25"> </flowPara></flowRoot>
+  </g>
 </svg>

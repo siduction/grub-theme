@@ -1,4 +1,4 @@
-Source: patience-grub-theme
+Source: c-blues-grub-theme
 Section: graphics
 Priority: optional
 Maintainer: Alf Gaida <agaida@siduction.org>
@@ -6,19 +6,19 @@ Build-Depends: debhelper (>= 11),
                inkscape,
                grub-common
 Standards-Version: 4.1.4
-Vcs-Git: https://git.siduction.org/artwork/grub-theme
-Vcs-Browser: https://git.siduction.org/artwork/grub-theme
+Vcs-Git: https://git.siduction.org/extra/grub-theme
+Vcs-Browser: https://git.siduction.org/extra/grub-theme
 
 
-Package: patience-grub-theme
+Package: c-blues-grub-theme
 Architecture: all
 Depends: ${misc:Depends},
-Description: grub-theme for Patience
+Description: grub-theme for c-blues
  mostly copy from grub-sources
 
-Package: patience-live-grub-theme
+Package: c-blues-live-grub-theme
 Architecture: all
 Depends: ${misc:Depends},
-         patience-grub-theme
-Description: live grub-theme for Patience
+         c-blues-grub-theme
+Description: live grub-theme for c-blues
  mostly copy from grub-sources (live)

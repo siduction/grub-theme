@@ -1,5 +1,5 @@
-CODENAME=Patience
-CODENAME_SAFE=patience
+CODENAME=c-blues
+CODENAME_SAFE=c-blues
 DISPLAY=grub-theme
 FLAVOUR=grub-theme
-VERSION=2018.3.0
+VERSION=2021.1.0

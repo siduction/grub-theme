@@ -4,11 +4,12 @@ Upstream-Contact: Alf Gaida <agaida@siduction.org>
 
 Files: *
 Copyright: 2015-2018 Alf Gaida <agaida@siduction.org>
-           2017 Hendrik Lehmbruch <hendrikl@siduction.org> 
+           2017-2021 Hendrik Lehmbruch <hendrikl@siduction.org> 
 License: GPL-2.0
 
 Files: debian/*
-Copyright: 2015-2018 Alf Gaida <agaida@siduction.org>
+Copyright: 2015-2021 Alf Gaida <agaida@siduction.org>
+           2021 Hendrik Lehmbruch <hendrikl@siduction.org> 
 License: GPL-2.0
 
 License: GPL-2.0
