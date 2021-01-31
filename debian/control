@@ -1,4 +1,4 @@
-Source: c-blues-grub-theme
+Source: cblues-grub-theme
 Section: graphics
 Priority: optional
 Maintainer: Alf Gaida <agaida@siduction.org>
@@ -10,15 +10,15 @@ Vcs-Git: https://git.siduction.org/extra/grub-theme
 Vcs-Browser: https://git.siduction.org/extra/grub-theme
 
 
-Package: c-blues-grub-theme
+Package: cblues-grub-theme
 Architecture: all
 Depends: ${misc:Depends},
-Description: grub-theme for c-blues
+Description: grub-theme for cblues
  mostly copy from grub-sources
 
-Package: c-blues-live-grub-theme
+Package: cblues-live-grub-theme
 Architecture: all
 Depends: ${misc:Depends},
-         c-blues-grub-theme
-Description: live grub-theme for c-blues
+         cblues-grub-theme
+Description: live grub-theme for cblues
  mostly copy from grub-sources (live)
