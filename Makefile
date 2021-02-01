@@ -20,8 +20,8 @@ background: dir
 
 logo: dir
 	inkscape --without-gui \
-		 --export-width=1024 \
-		 --export-height=100 \
+		 --export-width=196 \
+		 --export-height=38 \
 		 --export-png="build/$(CODENAME_SAFE)/logo.png" \
 			svg/logo.svg
 
