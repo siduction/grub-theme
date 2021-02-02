@@ -1,3 +1,9 @@
+cblues-grub-theme (2021.1.0-2) unstable; urgency=medium
+
+  * import changes by hendrikL; fixed logo scaling · 99455b7d05
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Tue, 02 Feb 2021 09:10:57 +0100
+
 cblues-grub-theme (2021.1.0-1) unstable; urgency=medium
 
   * fix codename safe
