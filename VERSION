@@ -1,5 +1,5 @@
-CODENAME=C-Blues
-CODENAME_SAFE=cblues
+CODENAME=Farewell
+CODENAME_SAFE=farewell
 DISPLAY=grub-theme
 FLAVOUR=grub-theme
-VERSION=2021.1.0
+VERSION=2021.2.0
