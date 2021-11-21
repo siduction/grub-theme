@@ -35,16 +35,30 @@ title-text: ""
 }
 
 
-#progress bar
- + progress_bar {
- 	id = "__timeout__"
-	text = "@TIMEOUT_NOTIFICATION_MIDDLE@"
- 	left = 15%
- 	top = 75%
- 	height = 3
- 	width = 70%+3
- 	bg_color = "#f70"
- }
+##progress bar
+# + progress_bar {
+# 	id = "__timeout__"
+#	text = "@TIMEOUT_NOTIFICATION_MIDDLE@"
+# 	left = 15%
+# 	top = 75%
+# 	height = 3
+# 	width = 70%+3
+# 	bg_color = "#f70"
+# }
+
+
+#circular progress bar
++ circular_progress {
+        left = 50%-64
+        top = 80%-64
+        id = "__timeout__"
+        width = 70
+        height = 70
+        center_bitmap = "center.png"
+        tick_bitmap = "tick.png"
+        num_ticks = 30
+        ticks_disappear = "True"
+}
 
 #help bar at the bottom
 + label {

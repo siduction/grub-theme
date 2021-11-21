@@ -1,4 +1,4 @@
-Source: farewell-grub-theme
+Source: 2021-03-grub-theme
 Section: graphics
 Priority: optional
 Maintainer: Alf Gaida <agaida@siduction.org>
@@ -10,15 +10,15 @@ Vcs-Git: https://github.com/siduction/grub-theme.git
 Vcs-Browser: https://github.com/siduction/grub-theme
 
 
-Package: farewell-grub-theme
+Package: 2021-03-grub-theme
 Architecture: all
 Depends: ${misc:Depends},
-Description: grub-theme for farewell
+Description: grub-theme for 2021-03
  mostly copy from grub-sources
 
-Package: farewell-live-grub-theme
+Package: 2021-03-live-grub-theme
 Architecture: all
 Depends: ${misc:Depends},
-         farewell-grub-theme
-Description: live grub-theme for farewell
+         2021-03-grub-theme
+Description: live grub-theme for 2021-03
  mostly copy from grub-sources (live)
