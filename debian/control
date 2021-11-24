@@ -1,4 +1,4 @@
-Source: 2021-03-grub-theme
+Source: wintersky-grub-theme
 Section: graphics
 Priority: optional
 Maintainer: Alf Gaida <agaida@siduction.org>
@@ -10,15 +10,15 @@ Vcs-Git: https://github.com/siduction/grub-theme.git
 Vcs-Browser: https://github.com/siduction/grub-theme
 
 
-Package: 2021-03-grub-theme
+Package: wintersky-grub-theme
 Architecture: all
 Depends: ${misc:Depends},
-Description: grub-theme for 2021-03
+Description: grub-theme for wintersky
  mostly copy from grub-sources
 
-Package: 2021-03-live-grub-theme
+Package: wintersky-live-grub-theme
 Architecture: all
 Depends: ${misc:Depends},
-         2021-03-grub-theme
-Description: live grub-theme for 2021-03
+         wintersky-grub-theme
+Description: live grub-theme for wintersky
  mostly copy from grub-sources (live)
