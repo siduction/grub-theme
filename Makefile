@@ -14,8 +14,8 @@ iconsdir:
 background: dir
 	inkscape \
 		 --without-gui \
-		 --export-width=1024 \
-		 --export-height=768 \
+		 --export-width=1920 \
+		 --export-height=1080 \
 		 --export-filename="build/$(CODENAME_SAFE)/$@.png" \
 			svg/$@.svg
 
