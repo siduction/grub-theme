@@ -1,3 +1,9 @@
+wintersky-grub-theme (2021.3.0-1) unstable; urgency=medium
+
+  * wintersky release
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Wed, 22 Dec 2021 14:31:04 +0100
+
 wintersky-grub-theme (2021.2.99-3) unstable; urgency=medium
 
   * package changes from hendrikL
