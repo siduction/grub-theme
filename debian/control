@@ -1,4 +1,4 @@
-Source: wintersky-grub-theme
+Source: mow-grub-theme
 Section: graphics
 Priority: optional
 Maintainer: Alf Gaida <agaida@siduction.org>
@@ -10,15 +10,15 @@ Vcs-Git: https://github.com/siduction/grub-theme.git
 Vcs-Browser: https://github.com/siduction/grub-theme
 
 
-Package: wintersky-grub-theme
+Package: mow-grub-theme
 Architecture: all
 Depends: ${misc:Depends},
-Description: grub-theme for wintersky
+Description: grub-theme for mow
  mostly copy from grub-sources
 
-Package: wintersky-live-grub-theme
+Package: mow-live-grub-theme
 Architecture: all
 Depends: ${misc:Depends},
-         wintersky-grub-theme
-Description: live grub-theme for wintersky
+         mow-grub-theme
+Description: live grub-theme for mow
  mostly copy from grub-sources (live)
