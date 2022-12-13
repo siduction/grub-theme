@@ -28,12 +28,13 @@ title-text: ""
 	menu_pixmap_style = "menu_*.png"
 }
 
-+ image {
-	left = 82%
-	top = 90%
-    width = 191
-	file = "logo.png"
-}
+## footer image, logo
+# + image {
+#	left = 82%
+#	top = 90%
+#   width = 191
+#	file = "logo.png"
+# }
 
 + image {
         left = 17%

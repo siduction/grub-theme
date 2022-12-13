@@ -28,12 +28,13 @@ title-text: ""
 	menu_pixmap_style = "menu_*.png"
 }
 
-+ image {
-	left = 80%
-	top = 90%
-	width= 196
-	file = "logo.png"
-}
+## footer image
+# + image {
+#	left = 80%
+#	top = 90%
+#	width= 196
+#	file = "logo.png"
+# }
 
 
 ##progress bar
@@ -48,7 +49,7 @@ title-text: ""
 # }
 
 
-#circular progress bar
+##circular progress bar
 + circular_progress {
         left = 50%-64
         top = 80%-64
