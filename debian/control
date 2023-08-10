@@ -1,4 +1,4 @@
-Source: mow-grub-theme
+Source: giants-grub-theme
 Section: graphics
 Priority: optional
 Maintainer: Alf Gaida <agaida@siduction.org>
@@ -10,15 +10,15 @@ Vcs-Git: https://github.com/siduction/grub-theme.git
 Vcs-Browser: https://github.com/siduction/grub-theme
 
 
-Package: mow-grub-theme
+Package: giants-grub-theme
 Architecture: all
 Depends: ${misc:Depends},
-Description: grub-theme for mow
+Description: grub-theme for giants
  mostly copy from grub-sources
 
-Package: mow-live-grub-theme
+Package: giants-live-grub-theme
 Architecture: all
 Depends: ${misc:Depends},
-         mow-grub-theme
-Description: live grub-theme for mow
+         giants-grub-theme
+Description: live grub-theme for giants
  mostly copy from grub-sources (live)

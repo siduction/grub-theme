@@ -1,3 +1,15 @@
+giants-grub-theme (2023.1-2) unstable; urgency=medium
+
+  * try jpg as background
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Thu, 10 Aug 2023 18:54:30 +0200
+
+giants-grub-theme (2023.1-1) unstable; urgency=medium
+
+  * prepare 30 years of Debian release
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Thu, 10 Aug 2023 15:39:55 +0200
+
 mow-grub-theme (2022.1.0-3) unstable; urgency=medium
 
   * change wallpaper

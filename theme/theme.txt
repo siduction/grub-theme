@@ -2,7 +2,7 @@ message-font: "u_vga16 16"
 message-color: "#fff"
 message-bg-color: "#000"
 terminal-font: "u_vga16 16"
-desktop-image: "background.png"
+desktop-image: "background.jpg"
 desktop-image-scale-method: "crop"
 title-text: ""
 
