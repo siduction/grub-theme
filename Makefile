@@ -2,7 +2,7 @@
 
 include ./VERSION
 
-all: background font icons menu slider highlight userpass themetxt livetxt tick center
+all: background logo font icons menu slider highlight userpass themetxt livetxt tick center
 icons: theme/icons/*.svg
 
 dir:
@@ -20,13 +20,13 @@ background: dir
 #			svg/$@.svg
 	cp -f png/background.jpg build/$(CODENAME_SAFE)/
 
-#logo: dir
-#	inkscape \
-#		 --without-gui \
-#		 --export-width=196 \
-#		 --export-height=38 \
-#		 --export-filename="build/$(CODENAME_SAFE)/logo.png" \
-#			svg/logo.svg
+logo: dir
+	inkscape \
+		 --without-gui \
+		 --export-width=196 \
+		 --export-height=38 \
+		 --export-filename="build/$(CODENAME_SAFE)/logo.png" \
+			svg/logo.svg
 
 userpass: dir
 	inkscape \
