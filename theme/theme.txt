@@ -29,12 +29,11 @@ title-text: ""
 }
 
 ## footer image
-# + image {
-#	left = 80%
-#	top = 90%
-#	width= 196
-#	file = "logo.png"
-# }
++ image {
+	left = 60%
+	top = 90%
+	file = "logo.png"
+}
 
 
 ##progress bar

@@ -21,12 +21,13 @@ background: dir
 	cp -f png/background.jpg build/$(CODENAME_SAFE)/
 
 logo: dir
-	inkscape \
-		 --without-gui \
-		 --export-width=196 \
-		 --export-height=38 \
-		 --export-filename="build/$(CODENAME_SAFE)/logo.png" \
-			svg/logo.svg
+#	inkscape \
+#		 --without-gui \
+#		 --export-width=196 \
+#		 --export-height=38 \
+#		 --export-filename="build/$(CODENAME_SAFE)/logo.png" \
+#			svg/logo.svg
+	cp -f png/logo.png build/$(CODENAME_SAFE)/
 
 userpass: dir
 	inkscape \
