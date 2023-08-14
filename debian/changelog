@@ -1,3 +1,9 @@
+giants-grub-theme (2023.1-6) unstable; urgency=medium
+
+  * fix debian/copyright
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Mon, 14 Aug 2023 11:30:40 +0200
+
 giants-grub-theme (2023.1-5) unstable; urgency=medium
 
   * fix debian/copyright
