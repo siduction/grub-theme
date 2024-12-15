@@ -1,4 +1,4 @@
-Source: giants-grub-theme
+Source: shine_on-grub-theme
 Section: graphics
 Priority: optional
 Maintainer: Alf Gaida <agaida@siduction.org>
@@ -10,15 +10,15 @@ Vcs-Git: https://github.com/siduction/grub-theme.git
 Vcs-Browser: https://github.com/siduction/grub-theme
 
 
-Package: giants-grub-theme
+Package: shine_on-grub-theme
 Architecture: all
 Depends: ${misc:Depends},
-Description: grub-theme for giants
+Description: grub-theme for shine_on
  mostly copy from grub-sources
 
-Package: giants-live-grub-theme
+Package: shine_on-live-grub-theme
 Architecture: all
 Depends: ${misc:Depends},
-         giants-grub-theme
-Description: live grub-theme for giants
+         shine_on-grub-theme
+Description: live grub-theme for shine_on
  mostly copy from grub-sources (live)

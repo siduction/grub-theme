@@ -1,3 +1,9 @@
+shine_on-grub-theme (2024.1-1) unstable; urgency=medium
+
+  * prepeare 2024.1 release
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Sun, 15 Dec 2024 14:33:23 +0100
+
 giants-grub-theme (2023.1-6) unstable; urgency=medium
 
   * fix debian/copyright
