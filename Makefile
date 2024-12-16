@@ -18,7 +18,7 @@ background: dir
 #		 --export-height=1080 \
 #		 --export-filename="build/$(CODENAME_SAFE)/$@.png" \
 #			svg/$@.svg
-	cp -f png/background.jpg build/$(CODENAME_SAFE)/
+	cp -f png/background.png build/$(CODENAME_SAFE)/
 
 logo: dir
 #	inkscape \
