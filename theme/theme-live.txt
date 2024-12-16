@@ -29,11 +29,11 @@ title-text: ""
 }
 
 ## footer image, logo
-+ image {
-	left = 60%
-	top = 90%
-	file = "logo.png"
-}
+#+ image {
+#	left = 60%
+#	top = 90%
+#	file = "logo.png"
+#}
 
 + image {
         left = 17%
