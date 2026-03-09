@@ -1,4 +1,4 @@
-Source: shine-on-grub-theme
+Source: Big-Crime-grub-theme
 Section: graphics
 Priority: optional
 Maintainer: Alf Gaida <agaida@siduction.org>
@@ -10,15 +10,15 @@ Vcs-Git: https://github.com/siduction/grub-theme.git
 Vcs-Browser: https://github.com/siduction/grub-theme
 
 
-Package: shine-on-grub-theme
+Package: Big-Crime-grub-theme
 Architecture: all
 Depends: ${misc:Depends},
-Description: grub-theme for shine-on
+Description: grub-theme for Big Crime
  mostly copy from grub-sources
 
 Package: shine-on-live-grub-theme
 Architecture: all
 Depends: ${misc:Depends},
          shine-on-grub-theme
-Description: live grub-theme for shine-on
+Description: live grub-theme for Big Crime
  mostly copy from grub-sources (live)
