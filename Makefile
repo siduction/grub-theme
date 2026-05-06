@@ -12,22 +12,22 @@ iconsdir:
 	mkdir -p build/$(CODENAME_SAFE)/icons
 
 background: dir
-#	inkscape \
-#		 --without-gui \
-#		 --export-width=1920 \
-#		 --export-height=1080 \
-#		 --export-filename="build/$(CODENAME_SAFE)/$@.png" \
-#			svg/$@.svg
-	cp -f png/background.png build/$(CODENAME_SAFE)/
+	inkscape \
+		 --without-gui \
+		 --export-width=400 \
+		 --export-height=225 \
+		 --export-filename="build/$(CODENAME_SAFE)/$@.png" \
+			svg/$@.svg
+#	cp -f png/background.png build/$(CODENAME_SAFE)/
 
 logo: dir
-#	inkscape \
-#		 --without-gui \
-#		 --export-width=196 \
-#		 --export-height=38 \
-#		 --export-filename="build/$(CODENAME_SAFE)/logo.png" \
-#			svg/logo.svg
-	cp -f png/logo.png build/$(CODENAME_SAFE)/
+	inkscape \
+		 --without-gui \
+		 --export-width=196 \
+		 --export-height=38 \
+		 --export-filename="build/$(CODENAME_SAFE)/logo.png" \
+			svg/logo.svg
+#	cp -f png/logo.png build/$(CODENAME_SAFE)/
 
 userpass: dir
 	inkscape \
