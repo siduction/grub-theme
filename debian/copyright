@@ -1,19 +1,21 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: grub-theme
-Upstream-Contact: Alf Gaida <agaida@siduction.org>
+Upstream-Contact: Torsten Wohlfarth <towo@siduction.org>
 
 Files: *
 Copyright: 2015-2018 Alf Gaida <agaida@siduction.org>
-           2017-2021 Hendrik Lehmbruch <hendrikl@siduction.org> 
+           2017-2021 Hendrik Lehmbruch <hendrikl@siduction.org>
+           2026 Torsten Wohlfarth <towo@siduction.org>
 License: GPL-2.0
 
 Files: debian/*
 Copyright: 2015-2021 Alf Gaida <agaida@siduction.org>
-           2021 Hendrik Lehmbruch <hendrikl@siduction.org> 
+           2021 Hendrik Lehmbruch <hendrikl@siduction.org>
+           2026 Torsten Wohlfarth <towo@siduction.org>
 License: GPL-2.0
 
-Files: all background images (the turtle)
-Copyright: 2026 Hendrik Lehmbruch <hendrikl@siduction.org>
+Files: all background imagee
+Copyright: 2026 Torsten Wohlfarth <towo@siduction.org>
 Licence: GPL-2.0
 
 License: GPL-2.0
