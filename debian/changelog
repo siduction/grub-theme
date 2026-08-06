@@ -1,3 +1,10 @@
+big-crime-grub-theme (2026.1-6) unstable; urgency=medium
+
+  * reactivate logo
+  + disable userpass.png
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Thu, 06 Aug 2026 09:09:56 +0200
+
 big-crime-grub-theme (2026.1-5) unstable; urgency=medium
 
   * final artwork

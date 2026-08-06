@@ -29,15 +29,16 @@ title-text: ""
 }
 
 ## footer image, logo
-#+ image {
-#	left = 60%
-#	top = 90%
-#	file = "logo.png"
-#}
-
 + image {
-        left = 17%
-        top = 15%
-        file = "userpass.png"
+	left = 60%
+	top = 90%
+	file = "logo.png"
 }
+
+## userpasswd
+#+ image {
+#        left = 17%
+#        top = 15%
+#        file = "userpass.png"
+#}
 
