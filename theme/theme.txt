@@ -40,7 +40,7 @@ title-text: ""
 # Show an informational message below the boot menu
  + vbox {
 	left = 25%
-	top = 68%
+	top = 70%
 	+ label { text = "- Press the UP and DOWN arrow keys to highlight an entry" color = "#E6DDD5" font = "u_vga16 16" }
 	+ label { text = "- Press the ENTER key to boot the highlighted entry" color = "#E6DDD5" font = "u_vga16 16" }
 	+ label { text = "- Press 'e' to edit the commands of the highlighted entry" color = "#E6DDD5" font = "u_vga16 16" }
