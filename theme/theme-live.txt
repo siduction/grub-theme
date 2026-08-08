@@ -3,7 +3,7 @@ message-color: "#fff"
 message-bg-color: "#000"
 terminal-font: "u_vga16 16"
 desktop-image: "background.png"
-desktop-image-scale-method: "crop"
+# desktop-image-scale-method: "crop"
 title-text: ""
 
 + boot_menu {
@@ -28,17 +28,16 @@ title-text: ""
 	menu_pixmap_style = "menu_*.png"
 }
 
-## footer image, logo
-+ image {
-	left = 60%
-	top = 90%
-	file = "logo.png"
-}
-
 ## userpasswd
-#+ image {
-#        left = 17%
-#        top = 15%
-#        file = "userpass.png"
-#}
+ +canvas {
+	top= 5%
+	left= 50%-196
+	width= 330
+	height= 30
+	+ image {
+		width= 330
+		height= 30
+		file = "userpass.png"
+	}
+}
 

@@ -3,72 +3,49 @@ message-color: "#fff"
 message-bg-color: "#000"
 terminal-font: "u_vga16 16"
 desktop-image: "background.png"
-desktop-image-scale-method: "crop"
+# desktop-image-scale-method: "crop"
 title-text: ""
 
-+ boot_menu {
+ # Show the boot menu
+ + boot_menu {
 	left = 15%
 	top = 20%
-	width = 70%
-	height = 40%
-	item_font = "u_vga16 16"
-	item_color = "#ddd"
-	selected_item_font = "u_vga16 16"
-	selected_item_color= "#f70"
-	selected_item_pixmap_style= "highlight_*.png"
-	icon_height = 28
-	icon_width = 28
+	width = 68%
+	height = 42%
+	font = "u_vga16 16"
+	item_color = "#fff"
+	selected_item_color = "#f70"
 	item_height = 32
-	item_padding = 0
-	item_icon_space = 32
-	item_spacing = 0
-	scrollbar = true
-	scrollbar_width = 32
-	scrollbar_thumb = "slider_*.png"
+	item_padding = 2
+	item_spacing = 2
+	icon_width = 32
+	icon_height = 32
+	icon_spacing = 25
 	menu_pixmap_style = "menu_*.png"
 }
 
-## footer image
-+ image {
-	left = 60%
-	top = 90%
-	file = "logo.png"
-}
-
-
-##progress bar
-# + progress_bar {
-# 	id = "__timeout__"
-#	text = "@TIMEOUT_NOTIFICATION_MIDDLE@"
-# 	left = 15%
-# 	top = 75%
-# 	height = 3
-# 	width = 70%+3
-# 	bg_color = "#f70"
+## show Logo
+# +canvas {
+# 	top= 99%-55
+# 	left= 90%-196
+# 	width= 196
+# 	height= 39
+# 	+ image {
+# 		width= 196
+# 		height= 39
+# 		file = "logo.png"
+# 	}
 # }
 
-
-##circular progress bar
-+ circular_progress {
-        left = 50%-64
-        top = 80%-64
-        id = "__timeout__"
-        width = 70
-        height = 70
-        center_bitmap = "center.png"
-        tick_bitmap = "tick.png"
-        num_ticks = 30
-        ticks_disappear = "True"
+# Show an informational message below the boot menu
+ + vbox {
+	left = 25%
+	top = 68%
+	+ label { text = "- Press the UP and DOWN arrow keys to highlight an entry" color = "#E6DDD5" font = "u_vga16 16" }
+	+ label { text = "- Press the ENTER key to boot the highlighted entry" color = "#E6DDD5" font = "u_vga16 16" }
+	+ label { text = "- Press 'e' to edit the commands of the highlighted entry" color = "#E6DDD5" font = "u_vga16 16" }
+	+ label { text = "- Press 'c' for the GRUB command-line" color = "#E6DDD5" font = "u_vga16 16" }
 }
 
-#help bar at the bottom
-+ label {
-	top = 100%-25
-	left = 0
-	width = 100%
-	height = 20
-	text = "@KEYMAP_MIDDLE@"
-	align = "center"
-	font = "u_vga16 16"
-	color = "#FFF"
-}
+# Show countdown
+ + label { id = "__timeout__" text = "%d" align = "center" color = "#f70" font = "u_vga16 16" left = 50%-3 top= 85%-3 }
