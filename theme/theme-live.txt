@@ -31,7 +31,7 @@ title-text: ""
 ## userpasswd
  +canvas {
 	top= 5%
-	left= 50%-196
+	left= 50%-330
 	width= 330
 	height= 30
 	+ image {
