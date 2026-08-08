@@ -28,16 +28,3 @@ title-text: ""
 	menu_pixmap_style = "menu_*.png"
 }
 
-## userpasswd
- +canvas {
-	top= 5%
-	left= 50%-330
-	width= 330
-	height= 30
-	+ image {
-		width= 330
-		height= 30
-		file = "userpass.png"
-	}
-}
-
